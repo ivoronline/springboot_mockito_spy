@@ -19,7 +19,7 @@ class MyControllerTest {
   //MOCK DEPENDENCY CLASS
   @Spy PersonRepository personRepositoryMock;
 
-  //INJECT MOCKS (where @autowired is used)
+  //INJECT SPIES (where @autowired is used)
   @InjectMocks MyController myController;
 
   //ENDPOINT
